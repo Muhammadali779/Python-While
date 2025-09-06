@@ -85,3 +85,84 @@
 * **loop orqali ma’lumot yig‘ish**,
 * **hisoblagich (`count`) ishlatish**,
 * `while`ni shart bilan tugatishni o‘rganishadi.
+|
+|
+|
+
+QOSHIMCHA SAVOLLAR:  
+|
+|
+|
+|
+|
+
+
+
+### 🔹 qushimcha 2. Minimal son topish
+
+**Izoh:**
+
+* Foydalanuvchi ketma-ket sonlar kiritadi.
+* Agar `"stop"` deb yozsa → loop tugaydi.
+* Oxirida eng kichik son ekranga chiqariladi.
+
+👉 Bu vazifa orqali o‘quvchilar:
+
+* `while` orqali **doimiy input olish**,
+* **shartli solishtirish** bilan eng kichik qiymatni saqlash,
+* `"stop"` so‘zi kiritilganda loopni tugatishni o‘rganadi.
+
+---
+
+### 🔹 qushimcha 3. Juft son yig‘uvchi dastur
+
+**Izoh:**
+
+* Foydalanuvchi son kiritadi.
+* Agar son **juft** bo‘lsa, u yig‘indiga qo‘shiladi.
+* Agar `"stop"` kiritilsa → loop tugaydi.
+* Oxirida juft sonlarning yig‘indisi chiqariladi.
+
+👉 Bu orqali:
+
+* `while` bilan **cheksiz input olish**,
+* **modul (%) operatoridan foydalanish**,
+* natijani **yig‘ish (sum)** mashq qilinadi.
+
+---
+
+### 🔹 qushimcha 4. Foydalanuvchi loginini tekshirish
+
+**Izoh:**
+
+* Oldindan `"admin"` login belgilab qo‘yiladi.
+* Foydalanuvchi `while` orqali login kiritadi.
+* Agar to‘g‘ri bo‘lsa: `"Xush kelibsiz, admin!"`.
+* Agar noto‘g‘ri bo‘lsa: `"Login xato! Qayta urinib ko‘ring."`.
+* To‘g‘ri login yozilganda loop tugaydi.
+
+👉 Bu orqali:
+
+* `while` bilan **takroriy input olish**,
+* **if-else tekshirish**,
+* login-parol kabi amaliy mashqlarni o‘rganishadi.
+
+---
+
+### 🔹 qushimcha 5. Kvadrat chiqarish dasturi
+
+**Izoh:**
+
+* Foydalanuvchi son kiritadi.
+* Dastur uning kvadratini chiqaradi.
+* Agar foydalanuvchi `"stop"` yozsa → loop tugaydi.
+
+👉 Bu orqali:
+
+* `while True:` yozish,
+* **int() ga o‘tkazish va matematik amal bajarish**,
+* `"stop"` bilan loopni boshqarish mashq qilinadi.
+
+---
+
+❓ Xohlaysizmi, men bu 4 ta vazifaga ham **tayyor Python kodini** yozib beray?
